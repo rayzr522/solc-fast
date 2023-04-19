@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "solc-fast",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a simple ESM wrapper around the native solc compiler to allow for faster compile times",
   "license": "MIT",
   "author": "rayzr522 <rayzr522@gmail.com>",
