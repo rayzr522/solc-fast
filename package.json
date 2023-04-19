@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "solc-fast",
+  "version": "0.0.2",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "types": "./solc-fast.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "types": "./solc-fast.d.ts"
+    }
+  },
+  "files": [
+    "src",
+    "solc-fast.d.ts"
+  ],
+  "bin": {
+    "solc-fast": "./src/bin.mjs"
+  },
+  "scripts": {
+    "test": "node ./test/compile.mjs",
+    "postinstall": "node ./src/install.mjs"
+  },
+  "dependencies": {
+    "execa": "^7.1.1",
+    "got": "^12.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7"
+  }
+}
