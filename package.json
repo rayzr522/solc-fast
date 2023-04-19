@@ -2,6 +2,18 @@
   "type": "module",
   "name": "solc-fast",
   "version": "0.0.3",
+  "description": "a simple ESM wrapper around the native solc compiler to allow for faster compile times",
+  "license": "MIT",
+  "author": "rayzr522 <rayzr522@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayzr522/solc-fast.git"
+  },
+  "keywords": [
+    "solidity",
+    "solc",
+    "compiler"
+  ],
   "main": "./src/index.mjs",
   "module": "./src/index.mjs",
   "types": "./solc-fast.d.ts",
